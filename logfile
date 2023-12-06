@@ -1,0 +1,27 @@
+2023-12-02 15:13:30.596 GMT [66375] LOG:  starting PostgreSQL 14.9 (Homebrew) on aarch64-apple-darwin22.6.0, compiled by Apple clang version 14.0.3 (clang-1403.0.22.14.1), 64-bit
+2023-12-02 15:13:30.597 GMT [66375] LOG:  could not bind IPv6 address "::1": Address already in use
+2023-12-02 15:13:30.597 GMT [66375] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2023-12-02 15:13:30.597 GMT [66375] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2023-12-02 15:13:30.597 GMT [66375] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2023-12-02 15:13:30.597 GMT [66375] WARNING:  could not create listen socket for "localhost"
+2023-12-02 15:13:30.597 GMT [66375] FATAL:  could not create any TCP/IP sockets
+2023-12-02 15:13:30.597 GMT [66375] LOG:  database system is shut down
+2023-12-02 15:19:24.251 GMT [66493] LOG:  starting PostgreSQL 14.9 (Homebrew) on aarch64-apple-darwin22.6.0, compiled by Apple clang version 14.0.3 (clang-1403.0.22.14.1), 64-bit
+2023-12-02 15:19:24.252 GMT [66493] LOG:  listening on IPv6 address "::1", port 5433
+2023-12-02 15:19:24.252 GMT [66493] LOG:  listening on IPv4 address "127.0.0.1", port 5433
+2023-12-02 15:19:24.252 GMT [66493] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5433"
+2023-12-02 15:19:24.256 GMT [66494] LOG:  database system was shut down at 2023-12-02 15:12:51 GMT
+2023-12-02 15:19:24.258 GMT [66493] LOG:  database system is ready to accept connections
+2023-12-02 15:20:08.960 GMT [66509] FATAL:  role "postgres" does not exist
+2023-12-02 15:20:17.314 GMT [66514] FATAL:  role "postgres" does not exist
+2023-12-02 15:22:39.130 GMT [66586] FATAL:  role "postgres" does not exist
+2023-12-02 15:24:02.137 GMT [66603] FATAL:  role "postgres" does not exist
+2023-12-02 15:24:15.368 GMT [66615] FATAL:  role "postgres" does not exist
+2023-12-02 15:32:37.311 GMT [66748] FATAL:  role "postgres" does not exist
+2023-12-02 15:36:37.711 GMT [66765] ERROR:  database "postgres" already exists
+2023-12-02 15:36:37.711 GMT [66765] STATEMENT:  CREATE DATABASE postgres;
+2023-12-02 15:37:01.602 GMT [66829] FATAL:  role "postgres" does not exist
+2023-12-02 15:38:38.159 GMT [66765] ERROR:  syntax error at or near "/" at character 1
+2023-12-02 15:38:38.159 GMT [66765] STATEMENT:  /c postgres
+	/dt
+	SELECT rolname FROM pg_roles;
