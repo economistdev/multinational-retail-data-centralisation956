@@ -25,3 +25,7 @@
 2023-12-02 15:38:38.159 GMT [66765] STATEMENT:  /c postgres
 	/dt
 	SELECT rolname FROM pg_roles;
+2023-12-08 12:24:53.876 GMT [66493] LOG:  received smart shutdown request
+2023-12-08 12:24:53.883 GMT [66493] LOG:  background worker "logical replication launcher" (PID 66500) exited with exit code 1
+2023-12-08 12:24:53.891 GMT [66495] LOG:  shutting down
+2023-12-08 12:24:53.917 GMT [66493] LOG:  database system is shut down
